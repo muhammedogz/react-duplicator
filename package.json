@@ -1,0 +1,24 @@
+{
+  "name": "react-duplicator",
+  "version": "1.0.0",
+  "description": "A simple React component to duplicate its children a specified number of times.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "duplicator",
+    "component"
+  ],
+  "author": "Muhammed Oguz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
