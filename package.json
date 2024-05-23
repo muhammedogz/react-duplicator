@@ -2,7 +2,7 @@
   "name": "react-duplicator",
   "version": "1.0.0",
   "description": "A simple React component to duplicate its children a specified number of times.",
-  "main": "index.js",
+  "main": "dist/Duplicator.js",
   "scripts": {
     "build": "tsc"
   },
@@ -12,6 +12,11 @@
     "component"
   ],
   "author": "Muhammed Oguz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammedogz/react-duplicator"
+  },
+  "homepage": "https://github.com/muhammedogz/react-duplicator",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.3.2",
