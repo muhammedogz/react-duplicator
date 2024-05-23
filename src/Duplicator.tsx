@@ -3,6 +3,7 @@ import { Fragment, type ReactNode } from 'react';
 type DuplicatorProps = {
   /**
    * Number of times to duplicate the children
+   * Default: 1
    */
   count?: number;
   /**
