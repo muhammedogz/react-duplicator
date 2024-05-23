@@ -30,9 +30,19 @@ export default App;
 
 ## Props
 `count` (number, optional): Number of times to duplicate the children. Defaults to 1.
+
 `children` (ReactNode): The content to be duplicated.
 
 ## Error Handling
 
 If the `count` prop is less than 1, the Duplicator component will log an error to the console and render nothing.
 
+```tsx
+import { Duplicator } from 'your-package-name';
+
+const ErrorExample = () => (
+  <Duplicator count={-1}>
+    <div>This won't be rendered.</div>
+  </Duplicator>
+);
+```
