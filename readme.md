@@ -19,8 +19,10 @@ npm install react-duplicator
 ```tsx
 import { Duplicator } from 'react-duplicator';
 
+const DEFAULT_COUNT = 3;
+
 const App = () => (
-  <Duplicator count={3}>
+  <Duplicator count={DEFAULT_COUNT}>
     <div>Hello, World!</div>
   </Duplicator>
 );
